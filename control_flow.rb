@@ -23,12 +23,12 @@ def hows_the_weather(temperature)
 end
 
 
-def fizzbuzz(num)
+def fizzbuzz(number)
   # your code here
-  return "FizzBuzz" if num%3 == 0 && num%5 == 0
-  return "Fizz" if num%3 == 0
-  return "Buzz" if num%5 == 0
-  num
+  return "FizzBuzz" if number%3 == 0 && number%5 == 0
+  return "Fizz" if number%3 == 0
+  return "Buzz" if number%5 == 0
+  number
 
 end
 
